@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Pagina de propiedad mia.</title>
-	<link rel="stylesheet" href="/Repositorio/css/estilos.css">
+	<title>Validar si la contraseña y la recepcion de la contraseña son iguales</title>
+	<script>
+	function comprobarClave(){
+	clave1=document.fl.clave1.value
+	clave2=document.fl.clave2.value
+
+	if(clave1 =="admin"&&clave2 =="conejo"){
+	alert("Los Datos Coinciden...\n Bienvenido");
+	var href="uno.html";
+	window.location=href;
+	}
+	else{
+	alert("Las dos claves son distintas...\nIntentelo nuevamente.");
+	var href="index.html";
+	};
+	}
 </head>
 <body>
-	<h1>Hoja de Vida</h1>
-	<h1>Marcos Davis Escalante Tum</h1>
-	
-	<center><img src="imagenes/capybara.jpg"><br>
-	<hr color="blue">
 
-	<a href="html/uno.html">Personales</a> &nbsp;&nbsp;
-	<a href="html/dos.html">Estudios</a> &nbsp;&nbsp;
-	<a href="html/tres.html">Capacitaciones</a> &nbsp;&nbsp;
-	<a href="html/cuatro.html">Referencias</a> &nbsp;&nbsp;
-	</center>
 </body>
 </html>
