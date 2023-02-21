@@ -4,10 +4,10 @@
 	<title>Validar si la contraseña y la recepcion de la contraseña son iguales</title>
 	<script>
 	function comprobarClave(){
-	clave1=document.f1.clave1.value
-	clave2=document.f1.clave2.value
+	clave1=document.f1.Clave1.value
+	clave2=document.f1.Clave2.value
 
-	if(clave1 =="admin"&&clave2 =="conejo"){
+	if(clave1 =="admin" && Clave2 =="conejo"){
 	alert("Los Datos Coinciden...\n Bienvenido");
 	var href="/Repositorio/html/uno.html";
 	window.location=href;
@@ -25,9 +25,9 @@
 	Escribe una supuesta contraseña dos veces, una en cada campo, y pulsa el boton. Javascript te dira si las dos son iguales.
 	<br>
 	<form action=""name="f1">
-	Contraseña:<input type="pasword" name="clave1" size="20">
+	Contraseña:<input type="pasword" name="Clave1" size="20">
 	<br>
-	Repite contraseña:<input type="pasword" name="clave2" size="20">
+	Repite contraseña:<input type="pasword" name="Clave2" size="20">
 	<br>
 	<input type="button" value="Comprobar si son iguales" onClick="comprobarClave()">
 </form>
