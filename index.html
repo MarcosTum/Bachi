@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Validar si la contraseña y la recepcion de la contraseña son iguales</title>
+	<title>Acceso</title>
 	<script>
 	function comprobarClave(){
 	Clave1=document.f1.Clave1.value
@@ -20,16 +20,18 @@
 </script>
 </head>
 <body>
-	<h1>Validar si la contraseña y la recepcion de la contraseña son iguales</h1>
+	<center>
+	<h1>Acceso de Seguridad</h1>
 	<br>
-	Escribe una supuesta contraseña dos veces, una en cada campo, y pulsa el boton. Javascript te dira si las dos son iguales.
+	Por favor ingrese su usuario y contraseña.
 	<br>
 	<form action=""name="f1">
-	Usuario:<input type="pasword" name="Clave1" size="20">
+	Usuario:<input type="pasword" name="Clave1" size="40">
 	<br>
-	Contraseña:<input type="pasword" name="Clave2" size="20">
+	Contraseña:<input type="pasword" name="Clave2" size="40">
 	<br>
 	<input type="button" value="Comprobar si son iguales" onClick="comprobarClave()">
 </form>
+</center>
 </body>
 </html>
